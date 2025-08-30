@@ -35,17 +35,17 @@ This guide provides comprehensive examples and patterns for using the GoTRON SDK
 Add GoTRON SDK to your project:
 
 ```bash
-go get github.com/fbsobreira/gotron-sdk
+go get github.com/thebytearray/gotron-sdk
 ```
 
 ### Basic Import
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
-    "github.com/fbsobreira/gotron-sdk/pkg/common"
+    "github.com/thebytearray/gotron-sdk/pkg/client"
+    "github.com/thebytearray/gotron-sdk/pkg/address"
+    "github.com/thebytearray/gotron-sdk/pkg/keystore"
+    "github.com/thebytearray/gotron-sdk/pkg/common"
 )
 ```
 
@@ -58,7 +58,7 @@ package main
 
 import (
     "log"
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
+    "github.com/thebytearray/gotron-sdk/pkg/client"
 )
 
 func main() {
@@ -203,7 +203,7 @@ func importAccount(privateKeyHex string) (string, error) {
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/thebytearray/gotron-sdk/pkg/client/transaction"
 )
 
 
@@ -284,7 +284,7 @@ func sendWithMemo(c *client.GrpcClient, from, to string, amount int64, memo stri
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
+    "github.com/thebytearray/gotron-sdk/pkg/keystore"
 )
 
 func keystoreExample() error {
@@ -329,8 +329,8 @@ func keystoreExample() error {
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/mnemonic"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
+    "github.com/thebytearray/gotron-sdk/pkg/mnemonic"
+    "github.com/thebytearray/gotron-sdk/pkg/keys"
 )
 
 func hdWalletExample() error {

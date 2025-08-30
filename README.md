@@ -1,8 +1,8 @@
 # GoTRON SDK
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/fbsobreira/gotron-sdk.svg)](https://pkg.go.dev/github.com/fbsobreira/gotron-sdk)
-[![Go Report Card](https://goreportcard.com/badge/github.com/fbsobreira/gotron-sdk)](https://goreportcard.com/report/github.com/fbsobreira/gotron-sdk)
-[![License](https://img.shields.io/github/license/fbsobreira/gotron-sdk)](LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/github.com/thebytearray/gotron-sdk.svg)](https://pkg.go.dev/github.com/thebytearray/gotron-sdk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thebytearray/gotron-sdk)](https://goreportcard.com/report/github.com/thebytearray/gotron-sdk)
+[![License](https://img.shields.io/github/license/thebytearray/gotron-sdk)](LICENSE)
 
 GoTRON SDK is a comprehensive Go SDK and CLI tool for interacting with the TRON blockchain. It provides both a command-line interface (`tronctl`) and Go libraries for TRON blockchain operations.
 
@@ -20,14 +20,14 @@ GoTRON SDK is a comprehensive Go SDK and CLI tool for interacting with the TRON 
 
 #### Install from source
 ```bash
-git clone https://github.com/fbsobreira/gotron-sdk.git
+git clone https://github.com/thebytearray/gotron-sdk.git
 cd gotron-sdk
 make install
 ```
 
 #### Install with go get
 ```bash
-go get -u github.com/fbsobreira/gotron-sdk
+go get -u github.com/thebytearray/gotron-sdk
 ```
 
 ### Basic Usage
@@ -52,8 +52,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
+	"github.com/thebytearray/gotron-sdk/pkg/address"
+	"github.com/thebytearray/gotron-sdk/pkg/client"
 )
 
 func main() {
@@ -222,6 +222,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/fbsobreira/gotron-sdk/tree/master/docs)
-- 🐛 [Issue Tracker](https://github.com/fbsobreira/gotron-sdk/issues)
-- 💬 [Discussions](https://github.com/fbsobreira/gotron-sdk/discussions)
+- 📖 [Documentation](https://github.com/thebytearray/gotron-sdk/tree/master/docs)
+- 🐛 [Issue Tracker](https://github.com/thebytearray/gotron-sdk/issues)
+- 💬 [Discussions](https://github.com/thebytearray/gotron-sdk/discussions)

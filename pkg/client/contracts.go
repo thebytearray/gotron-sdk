@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/abi"
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+	"github.com/thebytearray/gotron-sdk/pkg/abi"
+	"github.com/thebytearray/gotron-sdk/pkg/address"
+	"github.com/thebytearray/gotron-sdk/pkg/common"
+	"github.com/thebytearray/gotron-sdk/pkg/proto/api"
+	"github.com/thebytearray/gotron-sdk/pkg/proto/core"
 )
 
 // UpdateEnergyLimitContract update contract enery limit

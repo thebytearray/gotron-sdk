@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/keys"
+	"github.com/thebytearray/gotron-sdk/pkg/keys"
 	"github.com/stretchr/testify/assert"
 )
 
